@@ -1,0 +1,58 @@
+/*Estilos footer*/
+.logoFooter {
+    height: 40px;
+}
+
+.footer {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.seccionLinks {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    border: #D9D9D9 solid;
+    border-top-left-radius: 100px;
+    background-color: #D9D9D9;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    font-family: Arial, Helvetica, sans-serif;
+    .colBotones {
+        a {
+            text-decoration: none;
+            color: black;
+            margin-left: 40px;
+        }
+        ul {
+            li {
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+.colRedes {
+    .redesSociales {
+        img {
+            height: 30px;
+            margin-left: 15px;
+            filter: invert(79%) sepia(74%) saturate(801%) hue-rotate(298deg) brightness(102%) contrast(86%);
+        }
+    }
+}
+
+
+.colLogo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+footer {
+    ul {
+        li {
+            list-style: none;
+        }
+    }
+}
+

@@ -1,0 +1,32 @@
+@import 'header';
+@import 'footer';
+@import 'mobile';
+.seccionBody {
+    margin-top: 20px;
+}
+
+.imagen-ancho {
+    width: 60%;
+}
+
+/*Estilo de sección de colecciones*/
+.coleccion {
+    text-align: center;
+    margin-top: 50px;
+    img {
+        width: 600px;
+        margin-bottom: 40px;
+    }
+}
+
+
+.link-a-coleccion {
+    text-decoration: none;
+    color: black;
+    background-color: #F09A99;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+

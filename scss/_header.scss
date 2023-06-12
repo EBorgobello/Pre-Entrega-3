@@ -1,0 +1,24 @@
+/*Alto fijo para imagen de logo del encabezado*/
+header {
+    div {
+        text-align: center;
+        img {
+            height: 65px;
+        }
+        hr {
+            width: 90%;
+        }
+    }
+}    
+    
+
+.botones-navegacion {
+    display: block;
+    padding: 10px; 
+    margin-right: 40px;
+    text-decoration: none;
+    background-color: #F09A99;
+    border-radius: 10px;
+    color: black;
+}
+
