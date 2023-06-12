@@ -1,0 +1,143 @@
+/*Alto fijo para imagen de logo del encabezado*/
+header div {
+  text-align: center;
+}
+header div img {
+  height: 65px;
+}
+header div hr {
+  width: 90%;
+}
+
+.botones-navegacion {
+  display: block;
+  padding: 10px;
+  margin-right: 40px;
+  text-decoration: none;
+  background-color: #F09A99;
+  border-radius: 10px;
+  color: black;
+}
+
+/*Estilos footer*/
+.logoFooter {
+  height: 40px;
+}
+
+.footer {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.seccionLinks {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  border: #D9D9D9 solid;
+  border-top-left-radius: 100px;
+  background-color: #D9D9D9;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.seccionLinks .colBotones a {
+  text-decoration: none;
+  color: black;
+  margin-left: 40px;
+}
+.seccionLinks .colBotones ul li {
+  margin-bottom: 5px;
+}
+
+.colRedes .redesSociales img {
+  height: 30px;
+  margin-left: 15px;
+  filter: invert(79%) sepia(74%) saturate(801%) hue-rotate(298deg) brightness(102%) contrast(86%);
+}
+
+.colLogo {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+@media only screen and (max-width: 797px) {
+  footer {
+    display: none;
+  }
+  .coleccion img {
+    width: 80%;
+  }
+}
+ul {
+  list-style: none;
+}
+
+.headerTitle {
+  height: 70px;
+  width: 100%;
+  background-image: url(../../public/img/coleccion.jpg);
+  background-position: center;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+}
+.headerTitle div {
+  background-color: #F1E9DC;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin-left: 20%;
+  margin-bottom: 30px;
+}
+
+.group {
+  position: relative;
+}
+
+.textGroup {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  text-decoration: none;
+}
+.textGroup h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #F1E9DC;
+  color: black;
+}
+
+.padding-colecciones {
+  padding: 0;
+}
+
+@media only screen and (max-width: 797px) {
+  footer {
+    display: none;
+  }
+  .group img {
+    height: 300px;
+  }
+  .container .row .col {
+    text-align: center !important;
+  }
+}
+@media only screen and (min-width: 800px) and (max-width: 990px) {
+  .group img {
+    height: 300px;
+  }
+}
+
+/*# sourceMappingURL=colecciones.css.map */
